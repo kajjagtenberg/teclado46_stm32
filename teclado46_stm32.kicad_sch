@@ -2696,7 +2696,7 @@
 	)
 	(global_label "Q_CLK"
 		(shape input)
-		(at 33.02 163.83 180)
+		(at 30.48 163.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2706,7 +2706,7 @@
 		)
 		(uuid "1e32601b-e3ef-4666-bd7d-668648bb7b1e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.1686 163.83 0)
+			(at 21.6286 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2740,7 @@
 	)
 	(global_label "Q_SEL"
 		(shape input)
-		(at 33.02 166.37 180)
+		(at 30.48 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2750,7 +2750,7 @@
 		)
 		(uuid "2bd5ae38-0a37-4c7d-a534-5589bebd354d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.3501 166.37 0)
+			(at 21.8101 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
