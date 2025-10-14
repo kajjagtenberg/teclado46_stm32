@@ -3317,6 +3317,28 @@
 			)
 		)
 	)
+	(global_label "RGB 5V"
+		(shape input)
+		(at 325.12 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf34a41c-cbcc-4a4a-9caf-436611f56521")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.0591 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape input)
 		(at 158.75 31.75 180)
@@ -3333,6 +3355,28 @@
 			(effects
 				(font
 					(size 0.762 0.762)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RGB 3V3"
+		(shape input)
+		(at 326.39 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5a6cf8b-1c5b-4d5c-b104-19fc5330ad17")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 315.1196 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
