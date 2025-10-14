@@ -2654,52 +2654,40 @@
 		)
 	)
 	(junction
-		(at 160.02 104.14)
+		(at 69.85 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1876c255-5694-4e64-98ea-29714bbc7c42")
+		(uuid "271162e8-bca9-46c2-9a6e-aebccc9fde74")
 	)
 	(junction
-		(at 170.18 99.06)
+		(at 64.77 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "390bc8f3-e0f2-4bc7-aa26-d2966b55c4f6")
+		(uuid "27c19a30-293f-4c05-9fb5-c7bbcbe02eed")
 	)
 	(junction
-		(at 149.86 104.14)
+		(at 69.85 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "61af1459-7d6c-43d3-9ba2-ec44e2e4161e")
+		(uuid "2d048c4f-02e4-42b1-9c8c-1a19eb67f170")
 	)
 	(junction
-		(at 142.24 99.06)
+		(at 64.77 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8127f793-8a4d-4cd1-b44c-94a72e13e37f")
+		(uuid "5244dd00-6d7f-4918-8830-b55ab3d73f1e")
 	)
 	(junction
-		(at 149.86 99.06)
+		(at 74.93 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81c186cb-669b-4614-ac25-92f04aa08980")
+		(uuid "91c1852c-6659-4547-a99c-2fa39aa19f29")
 	)
 	(junction
-		(at 160.02 99.06)
+		(at 74.93 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90954bb8-9118-41c7-b89d-5b8eb1429290")
-	)
-	(junction
-		(at 170.18 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3dfca8f-95a2-4d8e-a266-7bc55acf55fd")
-	)
-	(junction
-		(at 142.24 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e954f063-f234-431a-9cac-0ae4dfe9acd3")
+		(uuid "b81313ea-7a89-4de3-83a7-750ba72c2623")
 	)
 	(junction
 		(at 172.72 72.39)
@@ -2731,13 +2719,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 106.68) (xy 142.24 104.14)
+			(xy 64.77 29.21) (xy 69.85 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14445505-7278-47de-a34d-e12bafb52608")
+		(uuid "203d842c-1dc7-4cdb-ba6b-5d840fc8d406")
 	)
 	(wire
 		(pts
@@ -2771,43 +2759,43 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 99.06) (xy 180.34 99.06)
+			(xy 74.93 29.21) (xy 85.09 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "379bd152-0c43-4ded-9943-b831f16c8e36")
+		(uuid "4eafc720-ab7b-4ba6-a464-a1f42b6be1cb")
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 170.18 104.14)
+			(xy 36.83 66.04) (xy 39.37 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6be0087d-f7bc-4450-bd26-d7a1d2e90fac")
+		(uuid "5d43a22b-dd2c-4296-a190-6b92798ad93a")
 	)
 	(wire
 		(pts
-			(xy 142.24 104.14) (xy 149.86 104.14)
+			(xy 69.85 34.29) (xy 74.93 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "743a2048-fe14-4123-b0fd-627c667bf571")
+		(uuid "5d9d15d4-3c99-488b-bc3b-af04cdc3aaaa")
 	)
 	(wire
 		(pts
-			(xy 160.02 99.06) (xy 170.18 99.06)
+			(xy 55.88 29.21) (xy 64.77 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ab88bb9-2b4b-440f-91ad-36e6a2bee664")
+		(uuid "717a3d8a-4a65-45bf-ba0b-5c60f05dc7e4")
 	)
 	(wire
 		(pts
@@ -2821,36 +2809,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 99.06) (xy 149.86 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83723e26-5396-46cf-b059-29f1c8cc7a8a")
-	)
-	(wire
-		(pts
-			(xy 149.86 99.06) (xy 160.02 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ac1ac6e-737f-41fb-95cd-2ccc95de4407")
-	)
-	(wire
-		(pts
-			(xy 149.86 104.14) (xy 160.02 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93a163e6-f166-4d82-8f05-078e81e04f6a")
-	)
-	(wire
-		(pts
 			(xy 151.13 72.39) (xy 153.67 72.39)
 		)
 		(stroke
@@ -2858,6 +2816,26 @@
 			(type default)
 		)
 		(uuid "9c92c143-a5a9-45fa-93dd-36c991dc1c1c")
+	)
+	(wire
+		(pts
+			(xy 69.85 29.21) (xy 74.93 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a234594b-ed74-4f24-89be-b92bc26c88e2")
+	)
+	(wire
+		(pts
+			(xy 64.77 34.29) (xy 69.85 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2dd7b9f-795a-4a08-9acd-b5db5b2b887f")
 	)
 	(wire
 		(pts
@@ -2871,6 +2849,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 34.29) (xy 64.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3c27e9-c2cb-480a-b9fc-642b4703b156")
+	)
+	(wire
+		(pts
 			(xy 153.67 77.47) (xy 153.67 81.28)
 		)
 		(stroke
@@ -2881,13 +2869,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 104.14) (xy 180.34 104.14)
+			(xy 74.93 34.29) (xy 85.09 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef931dbc-499a-4181-ba97-d06bc5023880")
+		(uuid "e5b8c3be-2712-47e8-9f51-27c4420d895f")
 	)
 	(wire
 		(pts
@@ -3450,6 +3438,143 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 74.93 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01dc8a14-55db-4758-b03c-b55900521d59")
+		(property "Reference" "C14"
+			(at 77.47 30.4862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "100n"
+			(at 77.47 31.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 74.93 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cd92c72-33d0-4230-a43c-5abb6c99143b")
+		)
+		(pin "1"
+			(uuid "d7828d65-3083-4a39-aeae-851f1d0ee7ed")
+		)
+		(instances
+			(project "teclado46_stm32"
+				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 69.85 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12cb74c9-8dcc-41b6-a0e7-36d6ac55404e")
+		(property "Reference" "#PWR05"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 69.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 69.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89b583d1-b4cd-4e65-8bbc-75deb40f38ca")
+		)
+		(instances
+			(project "teclado46_stm32"
+				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 69.85 58.42 0)
 		(unit 1)
@@ -3652,35 +3777,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 180.34 101.6 0)
+		(lib_id "power:GND")
+		(at 69.85 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3942ec02-22ee-4c44-9a30-0e81b30e67ec")
-		(property "Reference" "C7"
-			(at 182.88 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 182.88 102.8762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.34 101.6 0)
+		(uuid "4d37aff9-d3f2-4dcf-bf47-7b238ce60720")
+		(property "Reference" "#PWR018"
+			(at 69.85 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,130 +3795,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 180.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 180.34 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01f0b891-bc62-4d3e-96a9-0d227d569273")
-		)
-		(pin "2"
-			(uuid "c7a2ed79-a303-49bd-9d6a-3f58e5faca46")
-		)
-		(instances
-			(project "teclado46_stm32"
-				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 160.02 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d9f8256-e671-4639-8a66-3e987aa012f3")
-		(property "Reference" "C5"
-			(at 162.56 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 162.56 102.8762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 160.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 160.02 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7b56e775-020f-4b6e-8561-6877785f4809")
-		)
-		(pin "2"
-			(uuid "86df80d0-34be-4141-99d0-d79a97826f76")
-		)
-		(instances
-			(project "teclado46_stm32"
-				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 142.24 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "57c5a6ab-cdff-48d7-a459-96bcc66fe752")
-		(property "Reference" "#PWR05"
-			(at 142.24 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 142.24 93.98 0)
+		(property "Value" "GND"
+			(at 69.85 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 99.06 0)
+			(at 69.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,7 +3813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 99.06 0)
+			(at 69.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,8 +3821,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 142.24 99.06 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 69.85 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,12 +3831,83 @@
 			)
 		)
 		(pin "1"
-			(uuid "a138dac2-a1a2-47e7-a835-ef2c1bad2b6c")
+			(uuid "f90658b4-786d-48aa-a9f7-ebc079451c02")
 		)
 		(instances
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "#PWR05")
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "586caacd-123a-4d97-9559-133673975614")
+		(property "Reference" "C16"
+			(at 67.31 30.4862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "100n"
+			(at 67.31 31.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 64.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 64.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fd1521c-23e0-43b0-a774-be4d23481cd3")
+		)
+		(pin "1"
+			(uuid "aac2a850-4363-4c2a-b329-e7329e3765c0")
+		)
+		(instances
+			(project "teclado46_stm32"
+				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4115,35 +4171,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 149.86 101.6 0)
+		(lib_id "power:+3V3")
+		(at 36.83 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5b51094b-faf4-4a3e-b297-ea9ae6188228")
-		(property "Reference" "C4"
-			(at 152.4 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 152.4 102.8762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 149.86 101.6 0)
+		(uuid "819ca446-4c82-48c7-aeca-e1eb2321b99a")
+		(property "Reference" "#PWR017"
+			(at 36.83 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,8 +4189,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 149.86 101.6 0)
+		(property "Value" "+3V3"
+			(at 36.83 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,8 +4206,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 149.86 101.6 0)
+		(property "Datasheet" ""
+			(at 36.83 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 36.83 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4170,15 +4225,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad5a6c1f-497f-4aed-85d4-0fe5da89a835")
-		)
-		(pin "2"
-			(uuid "ea350fbd-a97e-48f8-ba6d-8d6795f1234c")
+			(uuid "93fee074-740c-4910-b887-c63ca3e121db")
 		)
 		(instances
-			(project ""
+			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "C4")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -4350,6 +4402,77 @@
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 85.09 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afaab360-762a-4392-8c69-a975e88c5438")
+		(property "Reference" "C17"
+			(at 87.63 30.4862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 87.63 31.7562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 85.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cd6c43b-529a-4966-b1c7-349469f3e114")
+		)
+		(pin "1"
+			(uuid "df7b15e7-68d5-4a74-836c-c4c7f2b0cd0e")
+		)
+		(instances
+			(project "teclado46_stm32"
+				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4619,16 +4742,25 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 142.24 101.6 0)
+		(at 55.88 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9860fcd-db7f-4060-a03f-4cd788ede8e3")
-		(property "Reference" "C3"
-			(at 144.78 100.3362 0)
+		(uuid "ee2c7b3f-7728-4f1f-9f9b-d9bb390added")
+		(property "Reference" "C18"
+			(at 58.42 30.4862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 58.42 31.7562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4636,17 +4768,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
-			(at 144.78 102.8762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 142.24 101.6 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 55.88 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4655,7 +4778,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 101.6 0)
+			(at 55.88 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4787,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 142.24 101.6 0)
+			(at 55.88 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4673,15 +4796,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4a12da5a-253f-4fa4-ad47-17265c8a5a0e")
+			(uuid "8f2b840d-43d0-494a-b059-0004375e4a35")
 		)
 		(pin "1"
-			(uuid "9ef65598-0e62-4b70-92ab-dfa7352b3eb0")
+			(uuid "2eeebe3b-264a-4d2a-86c8-09965b90db84")
 		)
 		(instances
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "C3")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -4824,76 +4947,6 @@
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 170.18 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f8dc776c-85d7-4272-9215-48d299715d54")
-		(property "Reference" "C6"
-			(at 172.72 100.3362 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 172.72 102.8762 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 170.18 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 170.18 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f670932-e3bb-45c2-98d9-7230ed26420d")
-		)
-		(pin "2"
-			(uuid "706ec838-92c5-4759-aada-75b4393674b2")
-		)
-		(instances
-			(project "teclado46_stm32"
-				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "C6")
 					(unit 1)
 				)
 			)
