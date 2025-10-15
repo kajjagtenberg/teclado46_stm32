@@ -2612,12 +2612,6 @@
 		(uuid "271162e8-bca9-46c2-9a6e-aebccc9fde74")
 	)
 	(junction
-		(at 64.77 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27c19a30-293f-4c05-9fb5-c7bbcbe02eed")
-	)
-	(junction
 		(at 69.85 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2630,22 +2624,16 @@
 		(uuid "2f48e4c0-69ee-434d-9f0c-c0ab7e7fc610")
 	)
 	(junction
-		(at 64.77 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5244dd00-6d7f-4918-8830-b55ab3d73f1e")
-	)
-	(junction
 		(at 97.79 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b7a3a90-d457-4d69-891d-f924d15dc384")
 	)
 	(junction
-		(at 74.93 29.21)
+		(at 76.2 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91c1852c-6659-4547-a99c-2fa39aa19f29")
+		(uuid "669faa0a-e5a4-4b96-92bd-4e32eb69aec4")
 	)
 	(junction
 		(at 27.94 175.895)
@@ -2654,10 +2642,16 @@
 		(uuid "b4d09642-5f64-4e0e-a0f4-fc6b6f91a0b5")
 	)
 	(junction
-		(at 74.93 34.29)
+		(at 64.77 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b81313ea-7a89-4de3-83a7-750ba72c2623")
+		(uuid "c25fa057-5bea-4851-9e49-3312fd2f3498")
+	)
+	(junction
+		(at 64.77 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da9adb3e-940c-4b4e-86a8-018589490c29")
 	)
 	(junction
 		(at 172.72 72.39)
@@ -2676,6 +2670,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb2473f5-7d71-4cca-898e-489dc1262ec1")
+	)
+	(junction
+		(at 76.2 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe849312-5160-43eb-8b1b-d5d54cf64b0f")
 	)
 	(no_connect
 		(at 87.63 95.25)
@@ -2701,6 +2701,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 34.29) (xy 85.09 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1339b672-7cf0-4404-8818-21798dd076a2")
+	)
+	(wire
+		(pts
 			(xy 146.05 134.62) (xy 158.75 134.62)
 		)
 		(stroke
@@ -2718,16 +2728,6 @@
 			(type default)
 		)
 		(uuid "1c03e36c-1f8f-4a46-986d-858c2a6323e9")
-	)
-	(wire
-		(pts
-			(xy 64.77 29.21) (xy 69.85 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "203d842c-1dc7-4cdb-ba6b-5d840fc8d406")
 	)
 	(wire
 		(pts
@@ -2771,6 +2771,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 29.21) (xy 85.09 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49be8642-a47a-4793-81e6-e468d6663cb1")
+	)
+	(wire
+		(pts
 			(xy 27.94 182.245) (xy 27.94 184.785)
 		)
 		(stroke
@@ -2791,7 +2801,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 29.21) (xy 85.09 29.21)
+			(xy 69.85 29.21) (xy 76.2 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2808,16 +2818,6 @@
 			(type default)
 		)
 		(uuid "52be3a34-948b-4b0c-83ce-8272b6744ce2")
-	)
-	(wire
-		(pts
-			(xy 69.85 34.29) (xy 74.93 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d9d15d4-3c99-488b-bc3b-af04cdc3aaaa")
 	)
 	(wire
 		(pts
@@ -2891,17 +2891,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 29.21) (xy 74.93 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a234594b-ed74-4f24-89be-b92bc26c88e2")
-	)
-	(wire
-		(pts
-			(xy 64.77 34.29) (xy 69.85 34.29)
+			(xy 55.88 34.29) (xy 64.77 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2931,13 +2921,23 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 34.29) (xy 64.77 34.29)
+			(xy 64.77 34.29) (xy 69.85 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb3c27e9-c2cb-480a-b9fc-642b4703b156")
+		(uuid "bcd21b77-c025-47d5-9414-80c84ebd8ab8")
+	)
+	(wire
+		(pts
+			(xy 64.77 29.21) (xy 69.85 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5c1e1d7-b539-42a0-a436-055252a4fe84")
 	)
 	(wire
 		(pts
@@ -2971,7 +2971,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 34.29) (xy 85.09 34.29)
+			(xy 69.85 34.29) (xy 76.2 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3834,77 +3834,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 74.93 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01dc8a14-55db-4758-b03c-b55900521d59")
-		(property "Reference" "C3"
-			(at 77.47 30.4862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "100n"
-			(at 77.47 31.7562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 74.93 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 74.93 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8cd92c72-33d0-4230-a43c-5abb6c99143b")
-		)
-		(pin "1"
-			(uuid "d7828d65-3083-4a39-aeae-851f1d0ee7ed")
-		)
-		(instances
-			(project "teclado46_stm32"
-				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 158.75 125.73 180)
 		(unit 1)
@@ -3913,7 +3842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "026b9b6d-2535-447f-9207-ee59dc6cb45b")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 158.75 125.73 90)
 			(effects
 				(font
@@ -3955,6 +3884,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 158.75 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe144256-c1b5-4d10-ae4e-634344dac5f5")
 		)
@@ -3964,7 +3902,7 @@
 		(instances
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -4045,7 +3983,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0dc112b4-c7b7-44bf-8243-67102c552b52")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 27.94 191.135 0)
 			(effects
 				(font
@@ -4094,7 +4032,7 @@
 		(instances
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4221,6 +4159,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "210ecef9-738e-48a4-8922-99b197efae35")
 		)
@@ -4245,7 +4192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1752766c-1674-46d4-a715-9b3ae8aab300")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 31.75 179.705 90)
 			(effects
 				(font
@@ -4287,6 +4234,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 31.75 179.705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f6eb087-cec1-42e3-a431-311134a85a5e")
 		)
@@ -4296,7 +4252,7 @@
 		(instances
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4312,7 +4268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1debeee1-6bf0-44c8-b8cc-23622fb93390")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 16.51 173.99 0)
 			(effects
 				(font
@@ -4361,7 +4317,86 @@
 		(instances
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "#PWR019")
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 76.2 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32a1c887-bc3a-4986-b64a-069042103bbe")
+		(property "Reference" "C3"
+			(at 76.2 26.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 83.058 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 76.2 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f24795a-08d3-4e83-96b6-a3a91e6ffa83")
+		)
+		(pin "2"
+			(uuid "db4ebccd-835a-4f68-895b-2f7a865547a8")
+		)
+		(instances
+			(project "teclado46_stm32"
+				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4434,6 +4469,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 31.75 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "41d08fc1-a6bd-41e6-8d51-d06eddd98a52")
+		(property "Reference" "C2"
+			(at 64.77 27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 71.882 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 64.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 64.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d80ad3e2-8db0-4fae-a77c-b97669d94501")
+		)
+		(pin "2"
+			(uuid "e4bc6ee7-d1e6-4568-9ab0-f3f9f4c15f31")
+		)
+		(instances
+			(project "teclado46_stm32"
+				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 69.85 34.29 0)
 		(unit 1)
@@ -4500,86 +4614,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.77 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "586caacd-123a-4d97-9559-133673975614")
-		(property "Reference" "C2"
-			(at 67.31 30.4862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "100n"
-			(at 67.31 31.7562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 64.77 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C1525"
-			(at 64.77 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9fd1521c-23e0-43b0-a774-be4d23481cd3")
-		)
-		(pin "1"
-			(uuid "aac2a850-4363-4c2a-b329-e7329e3765c0")
-		)
-		(instances
-			(project "teclado46_stm32"
-				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 97.79 184.15 0)
 		(mirror y)
@@ -4589,7 +4623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e4e2172-68c6-4066-bae5-ee80021a32ec")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 97.79 190.5 0)
 			(effects
 				(font
@@ -4638,7 +4672,7 @@
 		(instances
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4654,7 +4688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "939560a5-041a-41a0-8efd-307c2e067e07")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR018"
 			(at 158.75 120.65 0)
 			(effects
 				(font
@@ -4704,7 +4738,7 @@
 		(instances
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "#PWR023")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4782,7 +4816,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C588524"
+		(property "LCSC" "C588524"
 			(at 163.83 34.29 0)
 			(effects
 				(font
@@ -4933,6 +4967,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C318884"
+			(at 22.86 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3658546-1c16-40be-9fab-194790a3583d")
 		)
@@ -4956,16 +4999,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "afaab360-762a-4392-8c69-a975e88c5438")
 		(property "Reference" "C4"
-			(at 87.63 30.4862 0)
+			(at 85.09 27.178 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "4.7u"
@@ -4996,6 +5037,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 85.09 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23733"
 			(at 85.09 31.75 0)
 			(effects
 				(font
@@ -5417,6 +5467,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2847904"
+			(at 59.69 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "46"
 			(uuid "306d2b7f-557c-4d2e-87d3-1d716de994a7")
 		)
@@ -5580,13 +5639,12 @@
 		(dnp no)
 		(uuid "ee2c7b3f-7728-4f1f-9f9b-d9bb390added")
 		(property "Reference" "C1"
-			(at 58.42 30.4862 0)
+			(at 55.88 27.432 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "4.7u"
@@ -5625,6 +5683,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 55.88 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8f2b840d-43d0-494a-b059-0004375e4a35")
 		)
@@ -5650,7 +5717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef5aa884-7ee5-49ec-80f0-34663494e074")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 31.75 182.245 90)
 			(effects
 				(font
@@ -5692,6 +5759,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905"
+			(at 31.75 182.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "474b0f75-dada-4588-9a86-c32247d99e72")
 		)
@@ -5701,7 +5777,7 @@
 		(instances
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5759,6 +5835,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C318884"
+			(at 106.68 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5823,6 +5908,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 172.72 74.93 0)
 			(effects
 				(font
@@ -5928,7 +6022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fec96bee-de64-46b1-beec-08040fc9322f")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 59.69 157.48 0)
 			(effects
 				(font
@@ -5978,7 +6072,7 @@
 		(instances
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
