@@ -2409,7 +2409,7 @@
 		)
 		(uuid "fce0fd25-b7dd-4c7e-8e9c-791ed6ce26db")
 	)
-	(global_label "RGB 5V"
+	(global_label "RGB5V"
 		(shape input)
 		(at 43.18 50.8 180)
 		(fields_autoplaced yes)
@@ -2419,9 +2419,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1b0df283-da05-4f28-8f77-6404f928c284")
+		(uuid "d35e5c3d-882b-4ab3-8382-715488fe2fa7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.1191 50.8 0)
+			(at 34.0867 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

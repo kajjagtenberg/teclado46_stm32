@@ -188,6 +188,7 @@
       ],
       "track_widths": [
         0.0,
+        0.2,
         0.3
       ],
       "tuning_pattern_settings": {
@@ -490,7 +491,7 @@
       },
       {
         "clearance": 0.2,
-        "name": "5V",
+        "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -504,8 +505,12 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "5V",
+        "netclass": "Power",
         "pattern": "+5V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
       }
     ]
   },
