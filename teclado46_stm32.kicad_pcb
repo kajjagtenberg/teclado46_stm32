@@ -35741,7 +35741,7 @@
 		(descr "SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U1"
-			(at 0 2.4 90)
+			(at -0.396875 -2.38125 90)
 			(layer "B.SilkS")
 			(uuid "7f885f1d-a65c-428a-ae1b-b11599452ef8")
 			(effects
@@ -37996,7 +37996,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D41"
-			(at 0 2 90)
+			(at 3.778125 0.334375 90)
 			(layer "B.SilkS")
 			(uuid "f358e00c-c2b5-4265-89b4-52c842190317")
 			(effects
@@ -50628,7 +50628,7 @@
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D42"
-			(at 0 2 90)
+			(at 3.778125 0.334375 90)
 			(layer "B.SilkS")
 			(uuid "06c7cdb6-b1ec-4daa-9f3c-886466ec0ef6")
 			(effects
