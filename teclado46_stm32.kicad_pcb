@@ -77566,35 +77566,6 @@
 		(uuid "e569320d-e2c6-490c-a24a-3336a51aca01")
 	)
 	(zone
-		(net 5)
-		(net_name "+3V3")
-		(layer "F.Cu")
-		(uuid "b5bff8a1-7c7b-4e54-9f7b-1fb2d20ad18d")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0.4)
-		)
-		(min_thickness 0.25)
-		(filled_areas_thickness no)
-		(fill yes
-			(mode hatch)
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-			(hatch_thickness 1.5)
-			(hatch_gap 2.5)
-			(hatch_orientation 45)
-			(hatch_border_algorithm hatch_thickness)
-			(hatch_min_hole_area 0.3)
-		)
-		(polygon
-			(pts
-				(xy 268.2875 117.871875) (xy 19.84375 117.871875) (xy 20.6375 207.565625) (xy 267.49375 207.565625)
-			)
-		)
-	)
-	(zone
 		(net 2)
 		(net_name "GND")
 		(layers "F.Cu" "B.Cu")
