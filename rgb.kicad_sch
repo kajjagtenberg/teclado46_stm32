@@ -5,6 +5,146 @@
 	(uuid "213514f5-87c5-41b0-b642-9ee215c832a6")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_marbastlib-mx:MX_SK6812MINI-E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -478,6 +618,12 @@
 		(uuid "06bd82bf-1b90-40c3-8cb1-78f7f15ebac9")
 	)
 	(junction
+		(at 57.15 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c09e881-2f7a-48d6-aa54-4ec1818a4de8")
+	)
+	(junction
 		(at 171.45 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -652,6 +798,12 @@
 		(uuid "4f7d1ec5-48fa-428b-8db3-2aedd6e47c51")
 	)
 	(junction
+		(at 57.15 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4feaa391-3fb9-49ea-b98c-49ef591f88c9")
+	)
+	(junction
 		(at 196.85 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -686,6 +838,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61f1daf4-eee5-442e-bc96-0c9f8b1771f2")
+	)
+	(junction
+		(at 57.15 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6309a230-8384-49cc-b905-a72d9bf96dea")
 	)
 	(junction
 		(at 247.65 172.72)
@@ -790,6 +948,12 @@
 		(uuid "998909e2-8f04-479e-9a6e-ec7f79758222")
 	)
 	(junction
+		(at 57.15 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b4690c8-4dab-49ac-8854-2e9842400a00")
+	)
+	(junction
 		(at 304.8 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -800,6 +964,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ffc5ab9-edbe-433a-88a3-a879c692f424")
+	)
+	(junction
+		(at 63.5 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0c1c0f4-dc8e-4dad-bec6-150285bd4aab")
 	)
 	(junction
 		(at 247.65 157.48)
@@ -824,6 +994,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5653039-513a-49cf-bf45-b243f535098a")
+	)
+	(junction
+		(at 63.5 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8b72464-f547-44ac-9089-5c3de02e50f5")
+	)
+	(junction
+		(at 64.77 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bed31e01-eee0-446a-aae1-a83cba6bc4a3")
 	)
 	(junction
 		(at 76.2 134.62)
@@ -964,6 +1146,12 @@
 		(uuid "efbccf1b-df4b-4f68-bd48-e20077fba921")
 	)
 	(junction
+		(at 64.77 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f52d451c-cc10-44e9-90c5-d715127e12ce")
+	)
+	(junction
 		(at 69.85 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1051,6 +1239,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 157.48) (xy 44.45 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1ba59c-3063-4fdf-8251-eaa1ba2c1962")
+	)
+	(wire
+		(pts
 			(xy 134.62 127) (xy 144.78 127)
 		)
 		(stroke
@@ -1071,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 96.52) (xy 44.45 96.52)
+			(xy 69.85 96.52) (xy 57.15 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1181,6 +1379,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 157.48) (xy 57.15 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169c98d2-6879-49bb-8290-287666ea0b0b")
+	)
+	(wire
+		(pts
 			(xy 101.6 119.38) (xy 127 119.38)
 		)
 		(stroke
@@ -1238,6 +1446,16 @@
 			(type default)
 		)
 		(uuid "21a8c4fd-c219-41b1-939e-08bd3b0f63ee")
+	)
+	(wire
+		(pts
+			(xy 64.77 43.18) (xy 76.2 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242acefb-0fe7-403f-ac39-a748f875fd62")
 	)
 	(wire
 		(pts
@@ -1301,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 134.62) (xy 76.2 134.62)
+			(xy 50.8 134.62) (xy 63.5 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1361,13 +1579,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 58.42) (xy 76.2 58.42)
+			(xy 50.8 58.42) (xy 64.77 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "419b6923-a509-4ad7-bb61-d93fde78deb8")
+	)
+	(wire
+		(pts
+			(xy 64.77 43.18) (xy 64.77 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ee5e66-2e72-40e6-8f5c-59f181c57fa4")
 	)
 	(wire
 		(pts
@@ -1521,7 +1749,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 81.28) (xy 44.45 81.28)
+			(xy 57.15 81.28) (xy 44.45 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60498901-a29b-43d4-87e1-b457811d6ede")
+	)
+	(wire
+		(pts
+			(xy 69.85 81.28) (xy 57.15 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1531,7 +1769,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 157.48) (xy 44.45 157.48)
+			(xy 69.85 157.48) (xy 57.15 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1661,6 +1899,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 172.72) (xy 44.45 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f39837a-e2ee-47d7-8c7d-bb4b5937da02")
+	)
+	(wire
+		(pts
 			(xy 214.63 165.1) (xy 153.67 165.1)
 		)
 		(stroke
@@ -1751,7 +1999,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 43.18) (xy 76.2 43.18)
+			(xy 50.8 43.18) (xy 64.77 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1801,6 +2049,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 119.38) (xy 63.5 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a5b4f7b-e111-490d-9fbd-734f5ca91bdd")
+	)
+	(wire
+		(pts
 			(xy 228.6 134.62) (xy 254 134.62)
 		)
 		(stroke
@@ -1808,6 +2066,16 @@
 			(type default)
 		)
 		(uuid "8f09808b-ec85-415c-81e7-f069bb2e5e5d")
+	)
+	(wire
+		(pts
+			(xy 63.5 134.62) (xy 76.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f694506-7abb-4784-9193-63b7ad8d1f80")
 	)
 	(wire
 		(pts
@@ -1971,6 +2239,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 81.28) (xy 57.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af0dbb79-46e3-457c-a9ca-b8779e798887")
+	)
+	(wire
+		(pts
 			(xy 113.03 88.9) (xy 102.87 88.9)
 		)
 		(stroke
@@ -2121,6 +2399,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 96.52) (xy 44.45 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6df9a9a-1a15-4769-81ec-b98784ccc4bb")
+	)
+	(wire
+		(pts
 			(xy 222.25 96.52) (xy 196.85 96.52)
 		)
 		(stroke
@@ -2148,6 +2436,16 @@
 			(type default)
 		)
 		(uuid "d08365c5-7d13-4158-9031-ede08b8c93e3")
+	)
+	(wire
+		(pts
+			(xy 63.5 119.38) (xy 76.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d355c6b3-bb62-4984-8ee9-ea30497651fa")
 	)
 	(wire
 		(pts
@@ -2261,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 172.72) (xy 44.45 172.72)
+			(xy 69.85 172.72) (xy 57.15 172.72)
 		)
 		(stroke
 			(width 0)
@@ -2281,7 +2579,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 119.38) (xy 76.2 119.38)
+			(xy 50.8 119.38) (xy 63.5 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2371,6 +2669,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 58.42) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bbacd1-85fb-4544-891d-b59e3c8b0385")
+	)
+	(wire
+		(pts
 			(xy 189.23 88.9) (xy 179.07 88.9)
 		)
 		(stroke
@@ -2428,6 +2736,85 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 55.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0044d65a-2ed8-40f4-8f84-51dfc6bcc1d3")
+		(property "Reference" "C9"
+			(at 64.77 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 71.882 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 64.77 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53c17ea7-6e1e-4235-aadd-283a50cd0f29")
+		)
+		(pin "2"
+			(uuid "a253b96e-b908-4a16-bf42-bf741e6d767e")
+		)
+		(instances
+			(project "teclado46_stm32"
+				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a/3c38dc1a-d3d7-4cd5-a06d-97bdf9beb47c"
+					(reference "C9")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3958,6 +4345,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 170.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6da3ab2e-06ca-4228-831f-a39a6946dbb2")
+		(property "Reference" "C11"
+			(at 57.15 165.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 64.262 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 57.15 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "547f5119-3a2d-4b72-881e-a43e5c448157")
+		)
+		(pin "2"
+			(uuid "3e305ac2-e666-43dc-93c9-08a6520edb4a")
+		)
+		(instances
+			(project "teclado46_stm32"
+				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a/3c38dc1a-d3d7-4cd5-a06d-97bdf9beb47c"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SK6812MINI-E")
 		(at 330.2 127 0)
 		(unit 1)
@@ -4900,6 +5366,85 @@
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a/3c38dc1a-d3d7-4cd5-a06d-97bdf9beb47c"
 					(reference "LED20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 63.5 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3aa8c10-d007-4ef7-bafa-f3af50ac9480")
+		(property "Reference" "C10"
+			(at 63.5 127.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 70.612 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 63.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 63.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c755f5-f701-42e4-a8a6-65e9231bdf6a")
+		)
+		(pin "2"
+			(uuid "edcb7659-f3e1-4902-9dc7-c7b73ee206c5")
+		)
+		(instances
+			(project "teclado46_stm32"
+				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a/3c38dc1a-d3d7-4cd5-a06d-97bdf9beb47c"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -6059,6 +6604,85 @@
 			(project "teclado46_stm32"
 				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a/3c38dc1a-d3d7-4cd5-a06d-97bdf9beb47c"
 					(reference "LED39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 57.15 93.98 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea186355-82eb-49be-9bed-b828e68689e8")
+		(property "Reference" "C8"
+			(at 57.15 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 64.262 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 57.15 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a36bb2f0-2456-40da-853f-ccd8bca9fd35")
+		)
+		(pin "2"
+			(uuid "55ae9131-2a73-4c80-939f-a8cac16306ff")
+		)
+		(instances
+			(project "teclado46_stm32"
+				(path "/6ed4739c-92e8-425a-abb0-74006c04cb3a/3c38dc1a-d3d7-4cd5-a06d-97bdf9beb47c"
+					(reference "C8")
 					(unit 1)
 				)
 			)
