@@ -3800,22 +3800,22 @@
 	)
 	(global_label "RGB3V"
 		(shape input)
-		(at 31.75 90.17 180)
+		(at 87.63 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e0045cf4-05cb-4efe-9572-a94c7045c539")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.6567 90.17 0)
+			(at 96.7233 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
