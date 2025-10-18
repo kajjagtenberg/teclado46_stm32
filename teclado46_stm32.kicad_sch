@@ -3856,22 +3856,22 @@
 	)
 	(global_label "ROW 3"
 		(shape input)
-		(at 31.75 95.25 180)
+		(at 87.63 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ea59a502-c378-4d29-ae8d-6cb5303b91f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.5358 95.25 0)
+			(at 96.8442 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
